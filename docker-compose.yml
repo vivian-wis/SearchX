@@ -5,7 +5,3 @@ services:
     build: .
     command: bash start.sh
     restart: on-failure
-
-ports:
- - target: 80
-    mode: ingress
